@@ -1,0 +1,29 @@
+{
+  "name": "temp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nextui-org/button": "^2.0.37",
+    "@nextui-org/card": "^2.0.33",
+    "@nextui-org/input": "^2.2.4",
+    "@nextui-org/modal": "^2.0.39",
+    "@nextui-org/react": "^2.4.6",
+    "@nextui-org/scroll-shadow": "^2.1.19",
+    "dotenv": "^16.4.5",
+    "framer-motion": "^11.3.30",
+    "mysql2": "^3.11.0",
+    "next": "14.2.6",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
