@@ -5,7 +5,7 @@ import { ScrollShadow } from "@nextui-org/react";
 import MyButton from "./components/mybtn";
 
 const getNotes = async () => {
-  const note = await fetch("http://localhost:3000/api")
+  const note = await fetch("/api")
   if (!note.ok) {
     throw new Error("Fetch fail")
   }
